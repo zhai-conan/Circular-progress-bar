@@ -1,0 +1,16 @@
+<!--pages/test/index.wxml-->
+
+<view class="circleProgress_wrapper">
+    <view class="wrapper left">
+        <view class="circleProgress leftcircle" style='transform: rotate({{rotete2}});'></view>
+        <view class='wrapper-bg-left'></view>
+    </view>
+    <view class="wrapper right">
+        <view class="circleProgress rightcircle" style='transform: rotate({{rotete3}});'></view>
+        <view class='wrapper-bg-right'></view>
+    </view>
+    <view class='wrapper-center'>
+        <text>{{point}}</text>
+    </view>
+    <view class='wrapper-point' style='transform: rotate({{rotate}});'></view>
+</view>
